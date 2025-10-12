@@ -1,27 +1,124 @@
-# IMPORTANT
+# PlayStation Macro Repository
 
-The new PS Remote Play has an anti hook protection that makes this program useless. The only workaround so far to continue using it is by downloading an older version of PSRemotePlay:
+A community-driven repository hosting the final compiled build of [PlayStation Macro](https://github.com/thiagomiranda3/PlaystationMacro) along with a curated collection of macros for various PlayStation games.
 
-https://ps5-remote-play.uptodown.com/windows/descargar/81670958
+Maintained by https://x.com/StonedModder
 
-Download it and when it ask for update to new version, click No. You will have to link it to your PS4/PS5 everytime, but at least the macro will work on this version.
+## Discord
+Want help recording your own macros? Show off progress on one you are working on? Consider joining the Discord server! 
 
-As soon as I can find a way to bypass this anti hook protection, I will update this program, but so far, I can't do much about it unfortunately.
+## About This Repository
 
-# Playstation Macro
+This is a fork of [thiagomiranda3/PlaystationMacro](https://github.com/thiagomiranda3/PlaystationMacro) created to:
+- **Preserve** the final compiled release for future availability
+- **Host** a centralized collection of game macros for the community
+- **Enable** easy sharing and contribution of macros across multiple games
 
-This project is a fork of the awesome [PS4Macro](https://github.com/komefai/PS4Macro), forked to work for PS5 too, along with all the new control sensors and buttons that PS5 controller has.
+> **Note:** This repository is not intended for tool updates. For the original development repository, visit [thiagomiranda3/PlaystationMacro](https://github.com/thiagomiranda3/PlaystationMacro).
 
-Automation utility for PS4 and PS5 Remote Play written in C#.
+## What is PlayStation Macro?
 
-🔔 **Download latest version [here](https://github.com/thiagomiranda3/PlaystationMacro/releases/download/0.5.2/PlaystationMacro.zip)!**
+PlayStation Macro is a tool that allows you to record and playback controller inputs for PlayStation Remote Play, enabling automation of repetitive tasks in games.
 
-## How to use
 
-To record, click on `RECORD` button (Ctrl+R) to arm recording then press `PLAY` to start recording controls. The red text on the bottom right indicates the number of frames recorded. You can stop recording by clicking on `RECORD` button (Ctrl+R) again. The macro will then play the controls in a loop.
+## Getting Started
+
+### Installation
+
+1. Download the entire repository
+2. Ensure you have PlayStation Remote Play installed and configured
+3. Run `PlaystationMacro.exe`
+
+### How do I begin to use or record my own macros?
+
+I wrote up a guide on how to use this tool on GBATemp. Please note that if you download this github as a zip file. You can skip step 7 and have some premade macros from the community! 
+
+https://gbatemp.net/threads/how-to-set-up-ps4-5-remote-play-for-macros-automation.676104/
+
+### Using Macros
+
+1. Navigate to the `Macros/Games/[Your Game]/[Desired Macro]` folder
+2. Read the `README.md` file in the macro folder for specific instructions
+3. Load the `.xml` file in PlayStation Macro
+4. Follow the macro's setup instructions before running
+
+## Contributing Macros
+
+We welcome community contributions! To add your own macros:
+
+### Macro Submission Guidelines
+
+1. **Fork** this repository
+2. **Create** a new folder structure following the pattern:
+   ```
+   Macros/Games/[Game Name]/[Macro Name]/
+   ```
+3. **Add** your files:
+   - `macro.xml` - Your macro file exported from PlayStation Macro
+   - `README.md` - Description and instructions (see template below)
+4. **Submit** a pull request with a clear description
+
+### Macro README Template
+
+Each macro folder should include a `README.md` with the following information:
+
+```markdown
+# [Macro Name]
+
+## Description
+Brief description of what this macro does.
+
+## Game Version
+- Game: [Game Title]
+- Version: [Game version tested on]
+- Region: [US/EU/JP/etc.]
+
+## Requirements
+- List any specific requirements
+- Game progress needed
+- Special settings or conditions
+
+## Setup Instructions
+1. Step-by-step setup
+2. Where to position your character
+3. Any menu navigation needed
+
+## Usage
+1. How to start the macro
+2. What to expect
+3. When to stop
+
+## Notes
+- Any important warnings
+- Known issues
+- Tips for best results
+
+## Credits
+Created by: [Your Name/Username]
+```
+
+## Disclaimer
+
+- **Use at your own risk.** Automation may violate game terms of service.
+- This repository and its contributors are not responsible for any consequences of using these macros.
+- Always respect the games you play and other players in online environments.
+- Macros are provided as-is with no guarantees of functionality.
+
+## License
+
+This repository maintains the same license as the original PlayStation Macro project. Individual macros are contributed by community members.
 
 ## Credits
 
-- [EasyHook](https://easyhook.github.io/)
-- [Mono.Options](https://www.nuget.org/packages/Mono.Options/)
-- [PS4Macro](https://github.com/komefai/PS4Macro)
+- Original PlayStation Macro tool by [thiagomiranda3](https://github.com/thiagomiranda3)
+- Macro contributors: See individual macro README files
+
+## Support
+
+For issues with the **PlayStation Macro tool itself**, please visit the [original repository](https://github.com/thiagomiranda3/PlaystationMacro).
+
+For issues with **specific macros**, please open an issue in this repository or contact the macro creator listed in the macro's README.
+
+---
+
+**Happy Gaming!** 🎮
